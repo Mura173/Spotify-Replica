@@ -1,5 +1,21 @@
 {
-  "dependencies": {
-    "mongodb": "^6.13.0"
-  }
+  "name": "projeto",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix back-end && npm install --prefix front-end && npm run build --prefix front-end",
+    "start": "npm run start --prefix back-end"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mura173/Spotify-Replica.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mura173/Spotify-Replica/issues"
+  },
+  "homepage": "https://github.com/Mura173/Spotify-Replica#readme",
+  "description": ""
 }
